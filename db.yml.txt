@@ -1,6 +1,0 @@
-
-
-- hosts: db
-serial: 1
-roles:
-	- mysql
