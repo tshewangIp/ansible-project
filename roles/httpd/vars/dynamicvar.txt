@@ -1,0 +1,11 @@
+---
+# vars file for httpd
+
+myrepo: "https://github.com/kapilsthakkar25/webapp-repo"
+deploypath: "/var/www/html"
+state: "present"
+
+
+
+the above will be the default in execution, we can mention or provide at run time like if we myrepo with different repo, then we can mention 
+as myrepo:"path to repository"
